@@ -32,7 +32,7 @@ And both combined can be fetched with this query:
 
 ```sparql
 SELECT ?zeit (?bew AS ?bev) ?raumLabel WHERE {{
-  SERVICE <http://ld.integ.stadt-zuerich.ch/query> {
+  SERVICE <http://ld.stadt-zuerich.ch/query> {
     SELECT * WHERE {
       GRAPH <https://linked.opendata.swiss/graph/zh/statistics> {
         ?observation <http://purl.org/linked-data/cube#dataSet> <https://ld.stadt-zuerich.ch/statistics/dataset/BEW-RAUM-ZEIT> .
